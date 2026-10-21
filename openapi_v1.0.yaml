@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  title: OmniCart Order & Payment Orchestration API
+  version: 1.0.0
+  description: API specification for managing checkout reservation locks, idempotency, and asynchronous gateway webhooks.
+servers:
+  - url: https://api.omnicart.io/v1
+paths:
+  /checkout/orders:
+    post:
+      summary: Create an Order with 15-Minute Inventory Lock
+      parameters:
+        - in: header
+          name: X-Idempotency-Key
+          required: true
+          schema:
+            type: string
+      responses:
+        '201':
+          description: Order created and inventory successfully locked.
+        '409':
+          description: Conflict - Insufficient stock or concurrent lock contention.
+  /webhooks/payment:
+    post:
+      summary: Payment Gateway Webhook Receiver
+      responses:
+        '200':
+          description: Webhook processed and order status updated.
