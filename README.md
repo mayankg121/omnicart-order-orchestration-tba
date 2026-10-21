@@ -24,3 +24,8 @@ A production-grade technical analytics project built to solve e-commerce cart ab
 - **Star Schema Model:** Configured clean `1-to-many` relationships across operational tables.
 - **DAX Measures:** Custom metrics tracking *Realized Revenue*, *Checkout Conversion Rate*, *Revenue Leakage*, and *Total Orders*.
 - **Interactive Visuals:** Executive dark-themed monitoring layout with a responsive date range slicer.
+
+  <img width="641" height="252" alt="table" src="https://github.com/user-attachments/assets/b8f973e0-00d8-451e-b5b0-f1df00ba6689" />
+
+
+
