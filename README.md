@@ -25,7 +25,10 @@ A production-grade technical analytics project built to solve e-commerce cart ab
 - **DAX Measures:** Custom metrics tracking *Realized Revenue*, *Checkout Conversion Rate*, *Revenue Leakage*, and *Total Orders*.
 - **Interactive Visuals:** Executive dark-themed monitoring layout with a responsive date range slicer.
 
-  <img width="641" height="252" alt="table" src="https://github.com/user-attachments/assets/b8f973e0-00d8-451e-b5b0-f1df00ba6689" />
+  <img width="641" height="252" alt="table" src="https://github.com/user-attachments/assets/6053a9e2-7cb5-4a80-9d4c-27fd4fddc8e3" />
+<img width="1342" height="545" alt="charts" src="https://github.com/user-attachments/assets/6b001a78-51c3-4003-9900-6fc823125690" />
+<img width="732" height="202" alt="kpi_cards" src="https://github.com/user-attachments/assets/7abdedee-9daf-42ee-832d-41e0f8558c73" />
+
 
 
 
